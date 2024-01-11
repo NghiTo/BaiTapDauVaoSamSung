@@ -1,4 +1,4 @@
-package Motor.Shop.Form;
+package Computer.Shop.Form;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;

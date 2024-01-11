@@ -1,4 +1,4 @@
-package Motor.Shop.Entity;
+package Computer.Shop.Entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

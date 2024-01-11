@@ -1,13 +1,13 @@
-package Motor.Shop;
+package Computer.Shop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MotorShopApplication
+public class ComputerShopApplication
 {
 	public static void main(String[] args)
 	{
-		SpringApplication.run(MotorShopApplication.class, args);
+		SpringApplication.run(ComputerShopApplication.class, args);
 	}
 }

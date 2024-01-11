@@ -1,4 +1,4 @@
-package Motor.Shop;
+package Computer.Shop;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
