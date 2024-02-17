@@ -9,12 +9,12 @@ public class TimKiemString
         Scanner scanner = new Scanner(System.in);
         if (scanner.hasNextInt())
         {
-            int testCase = scanner.nextInt();
             scanner.nextLine();
-            for (int i = 1; i <= testCase; i++)
+            for (int i = 1; i <= 100; i++)
             {
-                String s1 = scanner.nextLine();
-                String s2 = scanner.nextLine();
+                int testCase = scanner.nextInt();
+                String s1 = scanner.nextLine().trim().replaceAll("\\s+", "");
+                String s2 = scanner.nextLine().trim().replaceAll("\\s+", "");
                 int count = 0;
                 int index = 0;
                 while ((index = s2.indexOf(s1, index)) != -1)
@@ -22,7 +22,7 @@ public class TimKiemString
                     count++;
                     index = index + s1.length();
                 }
-                System.out.println("#" + i + " " + count);
+                System.out.println("#" + scanner + " " + count);
             }
         }
     }
