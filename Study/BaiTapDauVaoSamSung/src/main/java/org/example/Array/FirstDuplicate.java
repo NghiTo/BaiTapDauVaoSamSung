@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Array;
 
 import java.util.HashMap;
 import java.util.Scanner;
